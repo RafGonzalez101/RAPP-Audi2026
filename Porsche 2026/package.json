@@ -1,0 +1,19 @@
+{
+  "name": "porsche-2026-starter",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Starter web project for Porsche 2026 design importer.",
+  "scripts": {
+    "start": "npx serve . -l 3001",
+    "import": "node figma-import.js",
+    "build": "echo \"No build step configured. Add one if needed.\"",
+    "lint": "echo \"No lint configured. Add ESLint or Prettier if desired.\""
+  },
+  "dependencies": {
+    "undici": "^5.2.0"
+  },
+  "devDependencies": {},
+  "keywords": ["porsche", "design", "starter", "web"],
+  "author": "",
+  "license": "MIT"
+}
